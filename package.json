@@ -1,0 +1,39 @@
+{
+  "name": "92lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "database": "nodemon --exec ./node_modules/.bin/babel-node src/modal/CreateDatabase.js",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/node": "7.15.4",
+    "@babel/preset-env": "7.15.6",
+    "axios": "^0.27.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "body-parser": "1.19.0",
+    "cli": "^1.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.7.0",
+    "mongoose-auto-increment-reworked": "^1.2.1",
+    "mongoose-long": "^0.6.0",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.19",
+    "npm": "^8.19.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.4.1"
+  }
+}
